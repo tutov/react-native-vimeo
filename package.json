@@ -2,7 +2,7 @@
   "name": "react-native-vimeo",
   "version": "0.3.0",
   "description": "A <Vimeo/> component for React Native.",
-  "main": "Vimeo.ios.js",
+  "main": "Vimeo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

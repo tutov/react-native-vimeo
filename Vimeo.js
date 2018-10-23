@@ -4,7 +4,7 @@
  */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StyleSheet, WebView } from 'react-native';
+import { WebView } from 'react-native';
 
 function getVimeoPageURL(videoId) {
   return (
@@ -41,8 +41,8 @@ export default class Vimeo extends React.Component {
     scalesPageToFit: PropTypes.bool
   };
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.handlers = {};
     this.state = {
       ready: false
